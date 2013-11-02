@@ -1,12 +1,11 @@
 
 # The Gilded Rose Code Kata
 
-This is a Ruby version based on [Jim Weirich's Version](https://github.com/jimweirich/gilded_rose_kata) of the Gilded Rose Kata, which can be found
-[here](http://iamnotmyself.com/2011/02/13/refactor-this-the-gilded-rose-kata/),
-prepared to be used as an exercise on [characterization tests](http://bkleinen.github.io/ws2013/info3/labs/lab-09.html) and [legacy code refactoring](http://bkleinen.github.io/ws2013/info3/labs/lab-10.html) in an informatics class.
+This is a Ruby version of the [original Gilded Rose Kata](http://iamnotmyself.com/2011/02/13/refactor-this-the-gilded-rose-kata/), based on a version of Jim Weirich (see below),
+prepared to be used as an exercise on [characterization tests](http://bkleinen.github.io/ws2013/info3/labs/lab-09.html) and [legacy code refactoring](http://bkleinen.github.io/ws2013/info3/labs/lab-10.html) in the Info3 class at HTW Berlin.
 
 This is a refactoring kata, so you will be starting with a legacy
-code base, add characterization tests to be able to safely refactor, refactor and finally add the new functionality.
+code base, add characterization tests to be able to safely refactor and add the new functionality.
 
 ## Getting Started
 
@@ -14,9 +13,12 @@ To work the Kata, clone this git repository with
 
     git clone https://github.com/htw-imi-info3/gilded-rose-kata.git
 
+-- please to **not** fork this repository to a public github repository to share it
+within your team, but rather push it to a private repo.
+
 Read the description below for the "rules" involving this kata.
 
-The easiest to install the dependencies is by using [bundler](http://bundler.io/). To do so, you need to install the bundler gem (if you haven't already done so) with
+The easiest way to install the dependencies is by using [bundler](http://bundler.io/). To do so, you need to install the bundler gem (if you haven't already done so) with
 
     gem install bundler
 
